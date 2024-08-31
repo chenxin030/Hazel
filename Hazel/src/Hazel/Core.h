@@ -8,3 +8,5 @@
 #else
 	#error Hazel only support windows
 #endif // HZ_PLATFORM_WINDOWS
+
+#define BIT(x) (1 << x)
